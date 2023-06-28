@@ -1,0 +1,8 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot a3_main_behav xil_defaultlib.a3_main -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-666] expression has 16 elements; expected 8 [E:/hardware assignments/a3/a3.srcs/sources_1/new/fsm.vhd:87]
+ERROR: [VRFC 10-666] expression has 16 elements; expected 8 [E:/hardware assignments/a3/a3.srcs/sources_1/new/fsm.vhd:88]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit a3_main in library work failed.
